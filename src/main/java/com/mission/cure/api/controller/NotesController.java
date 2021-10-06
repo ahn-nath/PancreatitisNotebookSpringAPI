@@ -20,7 +20,7 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import com.mission.cure.api.entity.Note;
 import com.mission.cure.api.service.NoteService;
 
-@CrossOrigin(origins = { "*" })
+//@CrossOrigin(origins = { "*" })
 @RestController
 @RequestMapping({ "/notes" })
 public class NotesController {
