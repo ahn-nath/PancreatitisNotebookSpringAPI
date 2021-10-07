@@ -25,7 +25,7 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import com.mission.cure.api.entity.Article;
 import com.mission.cure.api.service.ArticleService;
 
-//@CrossOrigin(origins = { "*" })
+@CrossOrigin(origins = { "*" })
 @RestController
 @RequestMapping({ "/articles" })
 public class ArticleController {
